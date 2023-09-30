@@ -17,4 +17,7 @@ add_llvm_library( LLVMHello MODULE BUILDTREE_ONLY
   intrinsics_gen
   PLUGIN_TOOL
   opt
+
+  LINK_COMPONENTS
+  Passes
   )
