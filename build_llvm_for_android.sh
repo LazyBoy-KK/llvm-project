@@ -39,7 +39,7 @@ $AndroidCmakeExe \
     -DCMAKE_CXX_FLAGS="-fvisibility=hidden -fdata-sections -ffunction-sections -fno-exceptions -Oz" \
     -DANDROID_ABI="$ArchTarget" \
     -DANDROID_PLATFORM="android-$AndroidSystemVersion" \
-    -DLLVM_DEFAULT_TARGET_TRIPLE="$ArchTriple" \
+    -DLLVM_HOST_TRIPLE="$ArchTriple" \
     -DLLVM_TARGETS_TO_BUILD="$LlvmTarget" \
     -DLLVM_INCLUDE_BENCHMARKS=OFF \
     -DLLVM_INCLUDE_DOCS=OFF \
