@@ -14,7 +14,7 @@ BuildRootPath="android-build"
 echo "Building LLVM for Android..."
 
 rm -rf build
-buildDir="$BuildRootPath/$archTarget"
+buildDir="$BuildRootPath/$ArchTarget"
 
 if [ -d $buildDir ]
 then
