@@ -61,6 +61,7 @@ $AndroidCmakeExe \
     \
     -DLLVM_ENABLE_ZLIB=OFF \
     -DLLVM_ENABLE_ZSTD=OFF \
+    -DLLVM_ENABLE_LTO="Thin" \
     
 if [ $? -ne 0 ]; then
     echo "Project Generation failed for Architecture : $ArchTarget !"
